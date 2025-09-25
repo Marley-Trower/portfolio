@@ -10,15 +10,49 @@
 </head>
 
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a href="home.html" class="active">Home </a>
+  <a class="active" href="index.html">about</a>
   <a href="page2.html">Family</a>
- <a href="page3.html">Photo Gallery </a><a href="page4.html">Credits </a>
+ <a href="page3.html">Photo Gallery </a>
+ <a href="page4.html" class="active">Credits </a>
 </div>
 
 <div style="padding-left:16px">
   <h2>Portfolio</h2>
+<div style="padding-left:16px">
+  <div class="mb-4">
+    <h3>My Contact Info</h3>
+    <ul class="list-unstyled">
+      <li><strong>Email:</strong>Marley.jayshon@icloud.com</li>
+      <li><strong>Phone:</strong> (123) 456-7890</li>
+      <li><strong>Location:</strong> Your City, State</li>
+    </ul>
+  </div>
 
+  <h3>Contact Me</h3>
+  <form class="mt-4" style="max-width: 500px;">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message:</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
 
+    
+  </style>
 </body>
 </html>
 
